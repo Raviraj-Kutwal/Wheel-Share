@@ -1,0 +1,764 @@
+.bgIcon,
+.btn1Icon,
+.btn2Icon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.bgIcon {
+  width: 100%;
+  right: 0;
+  object-fit: cover;
+}
+.btn1Icon,
+.btn2Icon {
+  width: 46.17%;
+  right: 53.83%;
+}
+.btn2Icon {
+  width: 48.33%;
+  right: 0;
+  left: 51.67%;
+}
+.buttons {
+  position: absolute;
+  height: 20.9%;
+  width: 29.03%;
+  top: 39.03%;
+  right: 15%;
+  bottom: 40.07%;
+  left: 55.97%;
+}
+.downloadOurMobile,
+.withLotsOf {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.withLotsOf {
+  height: 43.7%;
+  width: 90.88%;
+  top: 56.3%;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.downloadOurMobile {
+  height: 38.67%;
+  width: 100%;
+  top: 0;
+  font-size: var(--heading-4-size);
+  line-height: 46px;
+  color: var(--white);
+}
+.title {
+  position: absolute;
+  height: 40.76%;
+  width: 37.29%;
+  top: 29.1%;
+  right: 47.71%;
+  bottom: 30.14%;
+  left: 15%;
+}
+.downloadApp {
+  position: absolute;
+  top: 2031.8px;
+  left: 0;
+  width: 1440px;
+  height: 288px;
+  color: var(--color-gray-700);
+  font-family: var(--font-montserrat);
+}
+.collectionOfTrucksChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke-200);
+  width: 1440px;
+  height: 1734px;
+}
+.fromRobustUtility,
+.ourImpressiveCollection {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 130%;
+}
+.fromRobustUtility {
+  width: 773px;
+  font-size: var(--buttons-middle-size);
+  line-height: 160%;
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+}
+.ourImpressiveCollectionOfTParent {
+  position: absolute;
+  top: 100px;
+  left: calc(50% - 430.5px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px 0;
+  font-size: var(--font-size-29xl);
+  color: var(--color-gray-300);
+}
+.popular {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 26px;
+  font-weight: 500;
+}
+.popularWrapper {
+  width: 140px;
+  border-radius: var(--br-39xl);
+  background-color: var(--color-gray-300);
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-lgi);
+  box-sizing: border-box;
+  color: var(--white);
+}
+.frameParent,
+.popularWrapper,
+.smallTruckWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.smallTruckWrapper {
+  border-radius: var(--br-39xl);
+  background-color: var(--white);
+  border: 1px solid var(--color-gray-400);
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-lgi);
+}
+.frameParent {
+  position: absolute;
+  top: 292px;
+  left: 338px;
+  width: 726px;
+  justify-content: flex-start;
+  gap: 0 45px;
+  text-align: center;
+  font-size: var(--buttons-middle-size);
+}
+.frameChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xl);
+  background-color: var(--white);
+  border: 1px solid var(--color-gray-800);
+  box-sizing: border-box;
+}
+.frameItem,
+.image272Icon {
+  position: absolute;
+  top: 301px;
+  left: 288px;
+  width: 0;
+  height: 0;
+}
+.image272Icon {
+  top: 37px;
+  left: 10px;
+  width: 350px;
+  height: 237px;
+  object-fit: cover;
+}
+.locationSolidIcon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+.losAngeles {
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-weight: 500;
+  opacity: 0.54;
+}
+.locationSolidParent {
+  width: 336px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 4px;
+  font-family: var(--text-b);
+}
+.tataAceHt {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+  opacity: 0.8;
+}
+.span {
+  font-weight: 800;
+}
+.day1 {
+  font-size: var(--text-paragraph-size);
+  font-weight: 600;
+  color: var(--color-gray-500);
+}
+.day {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+  font-size: var(--font-size-13xl);
+}
+.tataAceHtMiniParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px 0;
+  font-size: var(--body-medium-size);
+}
+.speedometer01Icon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.speedometer01Parent {
+  width: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px 0;
+}
+.manualGearboxIcon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+}
+.users01Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px 0;
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  opacity: 0.7;
+}
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  width: 336px;
+  border-radius: var(--br-base);
+  background-color: var(--color-whitesmoke-100);
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+}
+.frameGroup {
+  position: absolute;
+  top: 292px;
+  left: 24px;
+  gap: 16px 0;
+}
+.rentNow {
+  position: relative;
+  font-weight: 600;
+}
+.rentNowWrapper {
+  position: absolute;
+  top: 471px;
+  left: 24px;
+  border-radius: var(--br-13xl);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 336px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-5xl);
+  font-size: var(--text-paragraph-size);
+}
+.rectangleDiv,
+.rectangleParent {
+  position: absolute;
+  top: 406px;
+  left: 112px;
+  width: 384px;
+  height: 538px;
+}
+.rectangleDiv {
+  height: 48.33%;
+  width: 95.83%;
+  top: 2.23%;
+  right: 2.08%;
+  bottom: 49.44%;
+  left: 2.08%;
+  border-radius: var(--br-lg);
+  filter: drop-shadow(0 11px 8.4px rgba(0, 0, 0, 0.25));
+}
+.mahindraTractor {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.frameChild1,
+.rectangleGroup {
+  position: absolute;
+  top: 976px;
+  left: 112px;
+  width: 384px;
+  height: 538px;
+}
+.frameChild1 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xl);
+  background-color: var(--white);
+  box-shadow: 0 8px 24px rgba(16, 24, 40, 0.08),
+    0 8px 8px -4px rgba(16, 24, 40, 0.03);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.rectangleIcon {
+  position: absolute;
+  height: 48.33%;
+  width: 95.83%;
+  top: 1.49%;
+  right: 2.08%;
+  bottom: 50.19%;
+  left: 2.08%;
+  border-radius: var(--br-lg);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rentNowFrame {
+  position: absolute;
+  top: 471px;
+  left: 24px;
+  border-radius: var(--br-13xl);
+  background-color: var(--color-black);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 336px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-5xl);
+  font-size: var(--text-paragraph-size);
+  color: var(--white);
+}
+.groupDiv,
+.image273Icon,
+.rectangleContainer {
+  position: absolute;
+  top: 406px;
+  left: 528px;
+  width: 384px;
+  height: 538px;
+}
+.groupDiv,
+.image273Icon {
+  top: 976px;
+}
+.image273Icon {
+  top: 23px;
+  left: 21px;
+  width: 339px;
+  height: 257px;
+  object-fit: cover;
+}
+.image276Icon,
+.rectangleParent1 {
+  position: absolute;
+  top: 406px;
+  left: 944px;
+  width: 384px;
+  height: 538px;
+}
+.image276Icon {
+  top: 29.2px;
+  left: 13px;
+  width: 347px;
+  height: 240px;
+  object-fit: cover;
+}
+.image278Icon,
+.rectangleParent2 {
+  position: absolute;
+  top: 976px;
+  left: 944px;
+  width: 384px;
+  height: 538px;
+}
+.image278Icon {
+  top: 988.2px;
+  left: 521px;
+  width: 397.7px;
+  height: 269px;
+  object-fit: cover;
+}
+.collectionOfTrucks {
+  position: absolute;
+  top: 297.8px;
+  left: 0;
+  width: 1440px;
+  height: 1734px;
+  font-size: var(--text-label-size);
+  font-family: var(--font-montserrat);
+}
+.heroSectionIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 297.8px;
+  object-fit: cover;
+}
+.share {
+  color: var(--color-crimson-100);
+}
+.logoChild,
+.wheelshare {
+  position: absolute;
+  left: 0;
+}
+.wheelshare {
+  top: 0;
+  font-weight: 600;
+}
+.logoChild {
+  top: 31.5px;
+  max-height: 100%;
+  width: 50px;
+}
+.logo {
+  width: 149px;
+  position: relative;
+  height: 36px;
+}
+.home {
+  cursor: pointer;
+}
+.home,
+.ourTeam {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.navLink {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 24px;
+}
+.navButtton {
+  background-color: var(--color-black);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-13xl);
+  color: var(--white);
+}
+.navBarWrapper,
+.navLinkWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navLinkWrapper {
+  width: 799px;
+  justify-content: center;
+  font-size: var(--text-paragraph-size);
+  font-family: var(--font-lato);
+}
+.navBarWrapper {
+  width: 1440px;
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-61xl);
+  box-sizing: border-box;
+}
+.navBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-200);
+}
+.homeVehicle,
+.vehicleModels2 {
+  position: absolute;
+  left: 86.6px;
+  font-weight: 600;
+  display: inline-block;
+}
+.vehicleModels2 {
+  top: 117.1px;
+  font-size: var(--font-size-13xl);
+  width: 248.8px;
+  height: 37.8px;
+}
+.homeVehicle {
+  top: 162.9px;
+  width: 192.1px;
+  height: 23px;
+}
+.footerChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-300);
+}
+.wheelshare1 {
+  position: absolute;
+  top: 0;
+  left: 2.36%;
+  font-weight: 600;
+}
+.logoItem {
+  position: absolute;
+  height: 16.11%;
+  width: 32.77%;
+  top: 98.61%;
+  right: 67.23%;
+  bottom: -14.72%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.logo1 {
+  position: absolute;
+  height: 9.61%;
+  width: 10.6%;
+  top: 23.49%;
+  right: 79.72%;
+  bottom: 66.91%;
+  left: 9.68%;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-poppins);
+}
+.copyrightTeamInc,
+.yourTrustedTruck {
+  position: absolute;
+  line-height: 145.8%;
+  display: inline-block;
+}
+.yourTrustedTruck {
+  width: 10.28%;
+  top: 38.43%;
+  left: 9.72%;
+  font-size: var(--font-size-mini);
+  opacity: 0.6;
+}
+.copyrightTeamInc {
+  width: 11.6%;
+  top: 87.43%;
+  left: 9.68%;
+  opacity: 0.4;
+}
+.div6,
+.infowheelsharecom,
+.pune {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  line-height: 170.1%;
+  display: inline-block;
+  opacity: 0.6;
+}
+.infowheelsharecom {
+  top: 30.47%;
+  text-decoration: underline;
+  color: inherit;
+}
+.div6,
+.pune {
+  top: 56.25%;
+}
+.pune {
+  top: 82.03%;
+}
+.infowheelsharecomParent {
+  position: absolute;
+  height: 34.16%;
+  width: 11.67%;
+  top: 24.82%;
+  right: 30.35%;
+  bottom: 41.02%;
+  left: 57.99%;
+}
+.subscribeToOur {
+  position: absolute;
+  width: 11.67%;
+  top: 35.23%;
+  left: 71.74%;
+  display: inline-block;
+}
+.rentDetails,
+.subscribeToOur,
+.whyChooseUs {
+  line-height: 170.1%;
+  opacity: 0.6;
+}
+.rentDetails {
+  position: absolute;
+  width: 100%;
+  top: 31.45%;
+  left: 0;
+  display: inline-block;
+}
+.whyChooseUs {
+  top: 58.06%;
+}
+.company,
+.termsAndConditions,
+.whyChooseUs {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  display: inline-block;
+}
+.termsAndConditions {
+  top: 81.45%;
+  line-height: 170.1%;
+  opacity: 0.6;
+}
+.company {
+  top: 0;
+  font-size: var(--buttons-middle-size);
+  line-height: 103.28%;
+  font-weight: 500;
+}
+.rentDetailsParent {
+  position: absolute;
+  height: 33.09%;
+  width: 11.67%;
+  top: 24.82%;
+  right: 57.99%;
+  bottom: 42.09%;
+  left: 30.35%;
+}
+.inputnormalChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  border: 2px solid var(--light-grey);
+  box-sizing: border-box;
+}
+.email {
+  position: absolute;
+  top: calc(50% - 14px);
+  left: 16px;
+  line-height: 175.7%;
+  font-weight: 600;
+}
+.getDealsAnd,
+.inputnormal {
+  position: absolute;
+  left: 71.74%;
+}
+.inputnormal {
+  height: 14.95%;
+  width: 22.22%;
+  top: 46.7%;
+  right: 6.04%;
+  bottom: 38.35%;
+  background-color: var(--white);
+  overflow: hidden;
+  font-size: var(--text-paragraph-size);
+  color: var(--light-grey);
+  font-family: var(--font-mulish);
+}
+.getDealsAnd {
+  top: 24.82%;
+  font-size: var(--buttons-middle-size);
+  line-height: 103.28%;
+  font-weight: 500;
+}
+.footer {
+  position: absolute;
+  top: 2319.8px;
+  left: 0;
+  width: 1440px;
+  height: 374.7px;
+  font-size: var(--font-size-smi);
+  color: var(--white);
+  font-family: var(--font-cabin);
+}
+.k2Su313602Icon {
+  position: absolute;
+  top: 1317px;
+  left: 136px;
+  width: 320px;
+  height: 264px;
+  object-fit: cover;
+}
+.vehicleModels {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  height: 2695px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--text-paragraph-size);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
