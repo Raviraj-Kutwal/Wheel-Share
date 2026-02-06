@@ -1,59 +1,48 @@
-# 🚜 WheelShare
+# 🚜 WheelShare  
+Affordable & Sustainable Equipment Sharing Platform
 
-**Affordable and Sustainable Solutions for Agricultural Machinery and Construction Equipment**
-
-WheelShare is a community-driven platform designed to promote the **sharing, rental, and optimal use of agricultural and construction machinery**. Our goal is to reduce ownership costs, increase accessibility, and support sustainable practices in rural and urban development.
-
----
-
-## 🌱 Key Features
-
-- **User Registration & Verification**  
-  Farmers, contractors, and operators can register and verify their identity securely.
-
-- **Machine Listing & Availability**  
-  Owners can list tractors, harvesters, bulldozers, and other equipment with availability, pricing, and location.
-
-- **Real-time Booking System**  
-  Request, schedule, and book equipment directly from verified owners.
-
-- **Location & Logistics**  
-  Integrated map-based interface for locating nearby equipment and planning transport.
-
-- **Cost Efficiency & Sustainability**  
-  Encourage resource-sharing to reduce idle machines, fuel consumption, and emissions.
+WheelShare is a **full-stack web application** built using **FastAPI (backend)** and **React (frontend)** that enables farmers and construction professionals to share agricultural and construction machinery. The platform promotes cost efficiency, accessibility, and sustainable resource utilization by connecting equipment owners with renters.
 
 ---
 
-## 📌 Use Case
+## 📌 Features
 
-- A small-scale farmer who cannot afford to own heavy machinery can rent it from a nearby owner only when needed.
-- Construction firms can reduce idle machine time by renting their machines during downtime.
-
----
-
-## 💡 Technologies Used
-
-- **Frontend**: React.js / HTML / CSS  
-- **Backend**: Node.js / Express.js  
-- **Database**: MongoDB  
-- **Hosting**: Firebase / Heroku / Railway  
-- **Others**: Google Maps API, JWT Authentication, Razorpay or UPI for Payments
+- User authentication and authorization using JWT  
+- Role-based access (Owner / Renter / Admin)  
+- Equipment listing with pricing, availability, and location  
+- Booking and scheduling system  
+- Location-based equipment discovery  
+- Booking history and status tracking  
+- Scalable REST API architecture  
 
 ---
 
-## 👨‍👩‍👧‍👦 Team
+## 🧠 Problem Statement
 
-- Raviraj Kutwal  
-- Yashanjali Sisodia  
-- Tejas Modhave  
-- Sahil Jagtap  
-- Vaibhav Warule
+Small and medium-scale farmers and contractors often cannot afford expensive machinery. At the same time, many machines remain unused for long periods. WheelShare solves this by enabling a **shared-economy model** for equipment usage.
 
 ---
 
-## 📃 Research Paper
+## 🛠️ Tech Stack
 
-Presented at **ICEMTEC 2024**:  
-> *Wheel Share: Affordable and Sustainable Solutions for Agricultural Machinery and Construction Equipment*
+### Backend
+- **FastAPI**
+- Python 3.10+
+- JWT Authentication
+- PostgreSQL
+- SQLAlchemy ORM
+- Alembic (Database migrations)
+
+### Frontend
+- **React.js**
+- JavaScript
+- React Router
+- CSS / Tailwind / Material UI
+
+### Deployment (Planned)
+- Backend: Railway / Render
+- Frontend: Vercel / Netlify
+- Database: PostgreSQL
+
+
 
